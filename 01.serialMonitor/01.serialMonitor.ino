@@ -37,3 +37,12 @@ void setup() {
 void loop() {
 
 }
+
+void setup() {
+  Serial.begin(115200);                  // Start talking to the computer at 115200 baud
+  Serial.println("Arduino ready!");    // When does this line print?
+}
+
+void loop() {
+  delay(1000);  // Wait 1 second each cycle
+}
