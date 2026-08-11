@@ -29,9 +29,7 @@
 */
 
 // The setup function runs once when you press reset or power the board
-void setup() {
 
-}
 
 // The loop function runs over and over again forever
 void loop() {
@@ -44,6 +42,6 @@ void setup() {
 }
 
 void loop() {
-    Serial.println("...your own message here...");
+  Serial.println("Spidermonkey");
   delay(1000);  // Wait 1 second each cycle
 }
