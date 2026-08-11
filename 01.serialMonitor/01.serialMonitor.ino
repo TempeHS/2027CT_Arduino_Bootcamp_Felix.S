@@ -43,6 +43,7 @@ void setup() {
   Serial.println("Arduino ready!");    // When does this line print?
 }
 
-void loop(  Serial.println("Spidermonkey");) {
+void loop() {
+    Serial.println("...your own message here...");
   delay(1000);  // Wait 1 second each cycle
 }
